@@ -419,7 +419,7 @@ footer{
     justify-content: space-between;
     padding-bottom: 100px;
 }
-.footer-link h6{
+.footer-link h6, .footer-link-2 h6{
     font: 500 16px arial;
     color: #fff;
     text-transform: capitalize;
@@ -533,10 +533,16 @@ footer{
     nav ul, .title h1, .img img, .section img, .section-1 p, .title-1 p, .section-2, .column p, .img-section img, .img-2 img, .img-text h5, .small-text-5, .text-6, form, .row input, .whole input, .form-1 textarea, .footer-link p, .footer-link-1 input{width: 100%;}
     nav ul{gap: 16px;}
     .special-view, #view-2{padding: 0;}
-    .title{text-align: center; height: 30vh;}
+    .title, .all-1{text-align: center;}
+    .title{height: 30vh;}
     .title-1 h1, .section-1, .footer-link p, .icon-1{padding-bottom: 30px;}
     .title h1{font-size: 30px;}
     #view{gap: 30px;}
     .section h3, .section p{padding-left: 0;}
+    .footer-link-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .dropdown i, .dropdown-content{display: none;}
 }

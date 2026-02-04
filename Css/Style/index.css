@@ -512,7 +512,7 @@ footer{
     #navbar, .row{flex-direction: column;}
     nav ul, .title h1{width: 100%;}
     nav ul{gap: 30px;}
-    .title{text-align: center; height: 60vh;}
+    .title{text-align: center; height: 72vh;}
     .img, .text, .section, .section-1, .section-2, .column, .img-text, .text-6{width: 48%;}
     .img img, .section img, .section-1 p, .title-1 p, .column p, .img-section img, .img-2 img, .img-text h5, .small-text-5, #tablet-view, form, .row input, .whole input, .form-1 textarea, .footer-link p, .footer-link-1 input{width: 100%;}
     .section h3, .section p{padding-left: 0;}
@@ -526,7 +526,7 @@ footer{
     .flex-view{display: none;}
 }
 @media(max-width:768px){
-    header{height: auto;}
+    header{height: 60vh;}
     .container{width: 90%;}
     #navbar, nav ul, #view, .all, .row, .all-1{flex-direction: column;}
     .logo, .section-2{margin-bottom: 30px;}
@@ -534,7 +534,7 @@ footer{
     nav ul{gap: 16px;}
     .special-view, #view-2{padding: 0;}
     .title, .all-1{text-align: center;}
-    .title{height: 30vh;}
+    .title{height: 35vh;}
     .title-1 h1, .section-1, .footer-link p, .icon-1{padding-bottom: 30px;}
     .title h1{font-size: 30px;}
     #view{gap: 30px;}
